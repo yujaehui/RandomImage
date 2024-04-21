@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		09602B8A2BD5182400A6AFEA /* RandomImageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09602B892BD5182400A6AFEA /* RandomImageApp.swift */; };
-		09602B8C2BD5182400A6AFEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09602B8B2BD5182400A6AFEA /* ContentView.swift */; };
 		09602B8E2BD5182500A6AFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09602B8D2BD5182500A6AFEA /* Assets.xcassets */; };
 		09602B912BD5182500A6AFEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09602B902BD5182500A6AFEA /* Preview Assets.xcassets */; };
+		09602B982BD5189100A6AFEA /* RandomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09602B972BD5189100A6AFEA /* RandomImageView.swift */; };
+		09602B9A2BD5191400A6AFEA /* RandomImageSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09602B992BD5191400A6AFEA /* RandomImageSectionView.swift */; };
+		09602B9C2BD519B400A6AFEA /* RandomImageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09602B9B2BD519B400A6AFEA /* RandomImageListView.swift */; };
+		09602B9E2BD51E3F00A6AFEA /* RandomImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09602B9D2BD51E3F00A6AFEA /* RandomImageDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		09602B862BD5182400A6AFEA /* RandomImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09602B892BD5182400A6AFEA /* RandomImageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageApp.swift; sourceTree = "<group>"; };
-		09602B8B2BD5182400A6AFEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09602B8D2BD5182500A6AFEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09602B902BD5182500A6AFEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09602B972BD5189100A6AFEA /* RandomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageView.swift; sourceTree = "<group>"; };
+		09602B992BD5191400A6AFEA /* RandomImageSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageSectionView.swift; sourceTree = "<group>"; };
+		09602B9B2BD519B400A6AFEA /* RandomImageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageListView.swift; sourceTree = "<group>"; };
+		09602B9D2BD51E3F00A6AFEA /* RandomImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				09602B892BD5182400A6AFEA /* RandomImageApp.swift */,
-				09602B8B2BD5182400A6AFEA /* ContentView.swift */,
+				09602B972BD5189100A6AFEA /* RandomImageView.swift */,
+				09602B992BD5191400A6AFEA /* RandomImageSectionView.swift */,
+				09602B9B2BD519B400A6AFEA /* RandomImageListView.swift */,
+				09602B9D2BD51E3F00A6AFEA /* RandomImageDetailView.swift */,
 				09602B8D2BD5182500A6AFEA /* Assets.xcassets */,
 				09602B8F2BD5182500A6AFEA /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09602B8C2BD5182400A6AFEA /* ContentView.swift in Sources */,
+				09602B9C2BD519B400A6AFEA /* RandomImageListView.swift in Sources */,
+				09602B9E2BD51E3F00A6AFEA /* RandomImageDetailView.swift in Sources */,
 				09602B8A2BD5182400A6AFEA /* RandomImageApp.swift in Sources */,
+				09602B982BD5189100A6AFEA /* RandomImageView.swift in Sources */,
+				09602B9A2BD5191400A6AFEA /* RandomImageSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
